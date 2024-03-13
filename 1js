@@ -1,0 +1,11 @@
+const car = {
+  make: "THAR",
+  model: "Mahindra",
+  year: 2022
+};
+function displayCarProperties(car) {
+  for (const property in car) {
+    console.log(`${property}: ${car[property]}`);
+  }
+}
+displayCarProperties(car);
